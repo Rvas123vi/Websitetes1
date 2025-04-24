@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #add8e6, #ffffff, #ffc0cb);
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .profile {
+      text-align: center;
+      margin: 2rem;
+    }
+    .profile img {
+      width: 150px;
+      border-radius: 50%;
+    }
+    .video-container {
+      text-align: center;
+      margin: 2rem;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 2rem;
+    }
+    .links a {
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      background-color: #0077ff;
+      color: white;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .links a:hover {
+      background-color: #005fcc;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+    }
+    .github-login {
+      text-align: center;
+      margin: 1rem;
+    }
+    .github-login a {
+      display: inline-block;
+      background: #333;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <div class="profile">
+    <img src="profile.jpg" alt="Profile Picture">
+    <p>Hello! I'm a web developer and designer. Welcome to my portfolio!</p>
+  </div>
+
+  <div class="video-container">
+    <video controls width="640">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="links">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+    <a href="#">Link 6</a>
+  </div>
+
+  <div class="github-login">
+    <a href="https://github.com/login" target="_blank">Login with GitHub</a>
+  </div>
+
+  <div class="footer">
+    <audio controls autoplay loop>
+      <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
